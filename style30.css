@@ -1,0 +1,1581 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+}
+
+.container
+{
+    flex-direction: row;
+    display: flex;
+    height: 100%;
+    align-content: center;
+    margin-left: 200px;
+    margin-top: 1px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contact
+{
+    height: 100%;
+    width: 380px;
+    background-color: rgb(78, 70, 70);
+    list-style: none;
+    margin: 3px;
+    margin-top:-15px;
+}
+
+
+.contact:nth-child(even){
+    background-color: whitesmoke;
+    width: 600px;
+    margin-top: -5px;
+
+}
+.profileText .liv
+{
+    color: #fff;
+    margin-left: 140px;
+    margin-top: -200px;
+    font-size: 12px;
+}
+.profileText .livre
+{
+  color: #fff;
+  margin-left: 140px;
+  margin-top: -73px;
+}
+.profileText .imgBx
+{
+ position: relative;
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ overflow: hidden;
+ left: 15px;
+ top: 135px;
+ display: flex;
+}
+
+
+.cont
+{
+    flex-direction: column;
+    display: flex;
+    padding: 2px;
+    height: 100%;
+}
+
+
+.con
+{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    list-style: none;
+
+}
+
+
+.con:nth-child(even){
+    background-color: whitesmoke;
+}
+
+.con:nth-child(1){
+    background-color: whitesmoke;
+    height: 560px;
+}
+
+.con:nth-child(2){
+    background-color: whitesmoke;
+    margin-top: 5px;
+    height: 150px;
+}
+.con:nth-child(3){
+    background-color: whitesmoke;
+    margin-top: 10px;
+    height: 507px;
+}
+
+.deux
+{
+    flex-direction: row;
+    display: flex;
+    padding: 2px;
+    height: 100%;
+}
+
+
+.un
+{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    list-style: none;
+    border-radius: 3px;
+
+}
+
+
+.un:nth-child(even){
+    background-color: whitesmoke;
+}
+
+.un:nth-child(2){
+    background-color: white;
+    width: 250px;
+    margin-left: 10px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.un:nth-child(1){
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.blue
+{
+    flex-direction:column;
+    display: flex;
+    padding: 2px;
+    height: 100%;
+}
+
+.blu
+{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(73, 84, 238);
+    list-style: none;
+    border: 1px solid gray;
+
+}
+
+.blanc
+{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    list-style: none;
+    border: 1px solid gray;
+}
+.projet
+{
+    width: 500px;
+    background: blueviolet;
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+    cursor: pointer;
+}
+.proj
+  {
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+  }
+.projet{
+    background-color: white;
+    height: 500px;
+    width: 580px;
+}
+.projet::-webkit-scrollbar
+{
+    width: 6px;
+    cursor: pointer;
+}
+.projet::-webkit-scrollbar-track
+{
+    background-color: rgb(250, 241, 250);
+}
+.projet::-webkit-scrollbar-thumb
+{
+    background-color: #616366;
+    border-radius: 50px;
+}
+
+
+.footer
+{
+    flex-direction:column;
+    display: flex;
+    padding: 2px;
+    height: 100%;
+}
+
+.footere
+{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border: 1px solid gray;
+}
+.boder
+{
+    width: 580px;
+    background: white;
+    height: 450px;
+    overflow: hidden;
+    overflow-y: scroll;
+    cursor: pointer;
+}
+.temps
+  {
+    color: white;
+    padding: 10px;
+  }
+.boder{
+    background-color: white;
+    height: 445px;
+}
+.boder::-webkit-scrollbar
+{
+    width: 6px;
+}
+.boder::-webkit-scrollbar-track
+{
+    background-color: rgb(250, 241, 250);
+}
+.boder::-webkit-scrollbar-thumb
+{
+    background-color: #616366;
+    border-radius: 15px;
+}
+
+
+.foot{
+    background-color: rgb(73, 84, 238);
+    height: 68px;
+    width: 100%;
+    border: 1px solid gray;
+
+}
+
+
+.conte
+{
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+}
+
+
+.co
+{
+    height: 720px;
+    width: 100%;
+    background-color: rgb(73, 84, 238);
+    list-style: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+
+}
+
+
+.co:nth-child(even){
+    background-color: white;
+    height: 510px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.hed
+{
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    margin-top: -65px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.hede
+{
+    font-size: 16px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-top: 5px;
+    left: 100px;
+}
+.compa
+{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.tro
+{
+    margin-top: -100px;
+    margin-left: 480px;
+}
+.anglais
+{
+    margin-top: 7px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+    z-index: 9999999;
+}
+
+ .anglai
+{
+    margin-top: 7px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    left: 300px;
+
+    position: relative;
+}
+
+.angla
+{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+  
+    color: rgb(0, 102, 255);
+}
+
+.angl
+{
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgb(139, 135, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+  
+}
+.boxExperience
+{
+    position: relative;
+    margin-top: 5px;
+
+}
+
+.ligne
+{
+    width: 515px;
+    color: gray;
+}
+.francais
+{
+    margin-top: 7px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+    z-index: 9999999;
+}
+
+ .francai
+{
+    margin-top: 7px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    left: 300px;
+ 
+    position: relative;
+}
+
+.franca
+{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+    
+    color: rgb(0, 102, 255);
+}
+
+.franc
+{
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgb(139, 135, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+  
+}
+.mathematiq
+{
+    margin-top: 7px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+    z-index: 9999999;
+}
+
+ .mathemat
+{
+    margin-top: 7px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    left: 300px;
+ 
+    position: relative;
+}
+
+.mathemat
+{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+  
+    color: rgb(0, 102, 255);
+}
+
+.mathema
+{
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgb(139, 135, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+  
+}
+.physiq
+{
+    margin-top: 7px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+    z-index: 9999999;
+}
+
+ .physi
+{
+    margin-top: 7px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    left: 300px;
+ 
+    position: relative;
+}
+
+.phys
+{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+   
+    color: rgb(0, 102, 255);
+}
+
+.phy
+{
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgb(139, 135, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+   
+}
+.informat
+{
+    margin-top: 7px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+    z-index: 9999999;
+}
+
+ .inform
+{
+    margin-top: 7px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    left: 300px;
+
+    position: relative;
+}
+
+.infor
+{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+    color: rgb(0, 102, 255);
+}
+
+.info
+{
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgb(139, 135, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+    
+}
+.langue
+{
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 0px;
+    left: 10px;
+    z-index: 9999999;
+}
+
+.lang
+{
+    font-size: 12px;
+    color: rgb(44, 42, 42);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    z-index: 9999999;
+}
+
+.boxing ul li .lang
+{
+    font-size: 12px;
+    color: rgb(44, 42, 42);
+    position: relative;
+    margin-top: -20px;
+    left: 10px;
+    z-index: 9999999;
+}
+.boxing ul li
+{
+    left: 20px;
+    top: 5px;
+   font-size: 16px;
+   position: relative;
+   cursor: pointer;
+   padding-bottom: 20px;
+   list-style: none;
+}
+.oller
+{
+    width: 360px;
+    margin-top: 0px;
+    position: relative;
+    height: 75px;
+}
+.heder
+{
+    font-size: 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 1px;
+    left: 100px;
+    z-index: 9999999;
+    margin-top: -45px;
+}
+
+.row
+{
+    font-size: 16px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 3px;
+    left: 100px;
+    z-index: 9999999;
+}
+.grade
+{
+    margin-top: 10px;
+    margin-left: 30px
+}
+.trois
+{
+    margin-top: 10px;
+    margin-left: 480px;
+}
+.point
+{
+    margin-top: -15px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 10px;
+    z-index: 9999999;
+}
+.poin
+{
+    font-size: 14px;
+    color: rgb(139, 135, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 85px;
+   
+    top: -17px;
+}
+.po
+{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 10px;
+   
+    color: rgb(0, 102, 255);
+}
+.lignea
+{
+    width: 535px;
+    border-radius: 4px solid grey;
+    margin-top: -15px;
+}
+.baccal
+{
+    margin-top: -20px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 19px;
+    z-index: 9999999;
+}
+
+.bacca
+{
+    margin-top: -30px;
+    font-size: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left:220px;
+  
+
+}
+.bacc
+{
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 15px;
+   
+    color: rgb(0, 102, 255);
+}
+
+.bac
+{
+    margin-top: -28px;
+    font-size: 14px;
+    color: rgb(139, 135, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 105px;
+  
+}
+.ligneal
+{
+    width: 535px;
+    border-radius: 4px solid grey;
+    margin-top: -10px;
+}
+.probat
+{
+    margin-top: 3px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 19px;
+    z-index: 9999999;
+}
+
+.proba
+{
+    margin-top: -30px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 180px;
+  
+
+}
+.prob
+{
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 19px;
+   
+    color: rgb(0, 102, 255);
+}
+
+.pro
+{
+    margin-top: -30px;
+    font-size: 14px;
+    color: rgb(139, 135, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 143px;
+   
+}
+.pr
+{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 15px;
+    
+   
+}
+.bepcet
+{
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 19px;
+    z-index: 9999999;
+}
+
+.bepce
+{
+    margin-top: -30px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 205px;
+  
+
+}
+.bepc
+{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 19px;
+    
+    color: rgb(0, 102, 255);
+}
+
+.bep
+{
+    margin-top: -30px;
+    font-size: 14px;
+    color: rgb(139, 135, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 130px;
+    
+    
+}
+.bodma
+{
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 19px;
+    z-index: 9999999;
+}
+
+.bodm
+{
+    margin-top: -30px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 110px;
+ 
+
+}
+.bod
+{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 19px;
+
+    color: rgb(0, 102, 255);
+}
+
+.bode
+{
+    margin-top: -30px;
+    font-size: 14px;
+    color: rgb(139, 135, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 150px;
+  
+}
+.batma
+{
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 19px;
+    z-index: 9999999;
+}
+
+.batm
+{
+    margin-top: -30px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 125px;
+  
+
+}
+.bat
+{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 19px;
+   
+    color: rgb(0, 102, 255);
+}
+
+.bate
+{
+    margin-top: -30px;
+    font-size: 14px;
+    color: rgb(139, 135, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 100px;
+   
+}
+.profileText .plus
+{
+    margin-left: 300px;
+    margin-top: 122px;
+	cursor: pointer;
+}
+
+.milieu {
+  
+    width: 380px;
+    height: 310px;
+    background-image: url("header.jpg");
+    background-size: 380px 310px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 0%;
+    margin-top: -5px;
+    display: flex;
+}
+.contctInfo
+{
+    margin-top: 50px;
+}
+
+.contactInfo ul li
+{
+    list-style: none;
+}
+
+.contactInfo ul li .text
+{
+    position: relative;
+    flex-direction: column;
+    margin: 10px 0;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    left: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    margin-top: 25px;
+}
+
+.lig
+{
+    width: 240px;
+    margin-top: 6px;
+    margin-left: 59px;
+}
+
+.contactInfo ul li .texte
+{
+    position: relative;
+    flex-direction: column;
+    margin: 10px 0;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    left: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    margin-top: 10px;
+}
+.contactInfo ul li .textet
+{
+    position: relative;
+    flex-direction: column;
+    margin: 10px 0;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    left: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.contactInfo ul li .textett
+{
+    position: relative;
+    flex-direction: column;
+    margin: 10px 0;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    left: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.contactInfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 30px;
+    color:#eef0f1;
+}
+
+.bas
+{
+    color: #fff;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    margin: 7px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid rgb(250, 8, 20);  
+}
+
+.bass
+{
+    color: #fff;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    margin: 7px;
+}
+
+.base
+{
+    color: #fff;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    position: relative;
+    left: 68px;
+    top: 20px;
+    margin: 7px;
+}
+.faculte ul li .lane
+{
+    top: -8px;
+    font-size: 20px;
+    color: rgb(24, 23, 23);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15px;
+    z-index: 9999999;
+}
+
+
+.faculte ul li .lanea
+{   top: -40px;
+    font-size: 20px;
+    color: rgb(24, 23, 23);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15px;
+    z-index: 9999999;
+}
+
+.faculte ul li .lanez
+{
+    top: -70px;
+    font-size: 20px;
+    color: rgb(24, 23, 23);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15px;
+    z-index: 9999999;
+}
+
+.faculte ul li .lanee
+{
+    top: -93px;
+    font-size: 20px;
+    color: rgb(24, 23, 23);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15px;
+    z-index: 9999999;
+}
+
+.faculte ul li .laner
+{
+    top: -115px;
+    font-size: 20px;
+    color: rgb(24, 23, 23);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15px;
+    z-index: 9999999;
+}
+
+.faculte ul li .langage
+{
+    top: -20px;
+    font-size: 15px;
+    color: rgb(24, 23, 23);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15px;
+    z-index: 9999999;
+}
+
+.faculte ul li .langag
+{
+    top: -55px;
+    font-size: 15px;
+    color: rgb(24, 23, 23);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15px;
+    z-index: 9999999;
+}
+
+.faculte ul li .langa
+{
+    top: -80px;
+    font-size: 15px;
+    color: rgb(24, 23, 23);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 13px;
+    z-index: 9999999;
+}
+
+.faculte ul li .la
+{
+    top: -105px;
+    font-size: 15px;
+    color: rgb(24, 23, 23);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15px;
+    z-index: 9999999;
+}
+
+.faculte ul li .lan
+{
+    top: -125px;
+    font-size: 15px;
+    color: rgb(24, 23, 23);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15px;
+    z-index: 9999999;
+}
+
+.faculte ul li .leon
+{
+    position: relative;
+    width: 280px;
+    height: 4px;
+    background: #313336;
+    display: block;
+    left: 15px;
+    top: -28px;
+}
+
+.faculte ul li .leon div
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #1b5be6;
+}
+.faculte ul li .boote
+{
+    top: -110px;
+    font-size: 20px;
+    color: rgb(24, 23, 23);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15px;
+    z-index: 9999999;
+}
+.faculte ul li .boot
+{
+    top: -120px;
+    font-size: 15px;
+    color: rgb(24, 23, 23);
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15px;
+    z-index: 9999999;
+}
+.faculte ul li .leone
+{
+    position: relative;
+    width: 280px;
+    height: 4px;
+    background: #313336;
+    display: block;
+    left: 30px;
+    top: -60px;
+}
+
+.faculte ul li .leone div
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #1b5be6;
+}
+.faculte ul li .leona
+{
+    position: relative;
+    width: 280px;
+    height: 4px;
+    background: #313336;
+    display: block;
+    left: 30px;
+    top: -85px;
+}
+
+.faculte ul li .leona div
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #1b5be6;
+}
+.faculte ul li .leonz
+{
+    position: relative;
+    width: 280px;
+    height: 4px;
+    background: #313336;
+    display: block;
+    left: 30px;
+    top: -110px;
+}
+
+.faculte ul li .leonz div
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #1b5be6;
+}
+.faculte ul li .leonq
+{
+    position: relative;
+    width: 280px;
+    height: 4px;
+    background: #313336;
+    display: block;
+    left: 30px;
+    top: -120px;
+}
+
+.faculte ul li .leonq div
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #1b5be6;
+}
+.faculte ul li .leons
+{
+    position: relative;
+    width: 280px;
+    height: 4px;
+    background: #313336;
+    display: block;
+    left: 30px;
+    top: -120px;
+}
+
+.faculte ul li .leons div
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #1b5be6;
+}
+.boxing ul li .check
+{
+    width: 16px;
+    margin-top: -20px;
+    margin-left: -50px;
+
+}
+.boxing ul li .checke
+{
+    width: 16px;
+    margin-top: -20px;
+    margin-left: -50px;
+
+}
+.boxing ul li .lan
+{
+    margin-top: 0px;
+    margin-left: -25px;
+}
+.etoile
+{
+    margin-left: 60px;
+}
+.etoil
+{
+    margin-left: 53px;
+}
+.etoi
+{
+    margin-left: 76px;
+}
+.eto
+{
+    margin-left: 158px;
+}
+.et
+{
+    margin-left: 35px;
+}
+.etoiles
+{
+    margin-left: 66px;
+}
+.faculte ul li
+{
+    list-style: none;
+}
+.faculte ul li .checkbox
+{
+    width: 16px;
+    margin-left: -20px;
+}
+.recherche
+{
+    flex-direction: row;
+    display: flex;
+    height: 44px;
+    margin: 15px;
+   flex-wrap: wrap;
+}
+
+.menu
+{
+    height: 50px;
+    width: 360px;
+    background-color: #fff;
+    margin-left: 8px;
+    border: 1px solid whitesmoke;
+    margin-top: 10px;
+    border-radius: 3px;
+
+}
+.application
+{
+    flex-direction: row;
+    display: flex;
+    height: 44px;
+    margin: 10px;
+   margin-top: 0px;
+}
+
+.appli
+{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+}
+.appli:nth-child(even)
+{
+    background: rgb(18, 233, 222);
+}
+.appli:nth-child(1)
+{
+    background: #fff;
+    width: 20px;
+    margin-right: 40px;
+  
+}
+.appli:nth-child(2)
+{
+    background: #fff;
+    width: 340px;
+  
+}
+.appli:nth-child(4)
+{
+    background: #fff;
+    width: 15px;
+  
+}
+
+
+.menue
+{
+    width: 40px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.search
+{
+    padding: 17px;
+    width: 230px;
+    border: #fff;
+}
+.recher
+{
+    width: 21px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.vertical
+{
+    margin-top: 9px;
+    margin-left: -10px;
+}
+.crois
+{
+    margin-top: 9px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+.developp
+{
+    margin-top: 7px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+    z-index: 9999999;
+}
+
+.develo
+{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+    color: rgb(0, 102, 255);
+}
+
+.devel
+{
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgb(139, 135, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+    
+}
+.tegom
+{
+    margin-top: 7px;
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+    z-index: 9999999;
+}
+
+.tego
+{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+    color: rgb(0, 102, 255);
+}
+
+.teg
+{
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgb(139, 135, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 25px;
+    
+}
+.vide
+{
+    margin-left: -20px;
+}
+
+ i {
+  color: #fff;
+  font-size: 20px !important;
+  /* 24px preferred icon size */
+}
+
+a {
+  text-decoration: none;
+}
+
+#btn {
+  display: none;
+}
+
+.button-parent {
+  display: flex;
+   margin-top: 20px;
+   margin-left: 200px;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 100px;
+  cursor:pointer;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+/* link and link-parent */
+
+.link-parent {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s;
+}
+
+.link-item {
+margin: -150px;
+  background-color: black;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 5px;
+  transform: translatey(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: move-up;
+  animation-duration: .3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
+/* control click */
+
+#btn:checked~.link-parent {
+  display: flex;
+  flex-direction:column;
+}
+
+
+/* animation */
+
+@keyframes move-up {
+  0% {
+    transform: translateY(5px);
+  }
+  33% {
+    transform: translateY(0px);
+  }
+  66% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+#link-one {
+  animation-delay: .1s;
+   margin-left:-195px;
+  margin-top: 0px;
+}
+
+#link-two {
+  animation-delay: .2s;
+   margin-left:-195px;
+  margin-top: 50px;
+}
+
+
